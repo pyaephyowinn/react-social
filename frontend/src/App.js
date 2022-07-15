@@ -29,9 +29,9 @@ function App() {
 
     console.log("app");
     if (expiry > now) {
-      console.log(new Date(expiry));
-      console.log("not expire");
-      console.log(user);
+      // console.log(new Date(expiry));
+      // console.log("not expire");
+      // console.log(user);
       dispatch(setUser({ token, user }));
     } else {
       console.log("expire");

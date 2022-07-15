@@ -20,7 +20,6 @@ const LoginPage = () => {
   useEffect(() => {
     if (isSuccess) {
       navigate('/home', { replace: true })
-      // dispatch(resetState())
     }
   }, [isSuccess, message, navigate, dispatch, token])
 
