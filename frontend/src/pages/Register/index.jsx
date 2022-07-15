@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 
 import styles from "./index.module.css";
-import { registerUser, resetState } from "../../store/authSlice";
+import { registerUser } from "../../store/authSlice";
 
 const RegisterPage = () => {
   const navigate = useNavigate();
@@ -20,8 +20,8 @@ const RegisterPage = () => {
 
   useEffect(() => {
     if (isSuccess) {
-      navigate('/home', { replace: true })
-      dispatch(resetState())
+      navigate('/home', { replace: true });
+      // dispatch(resetState())
     }
   }, [isSuccess, message, navigate, dispatch, token])
 
