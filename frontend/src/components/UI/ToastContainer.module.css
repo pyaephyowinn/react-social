@@ -1,0 +1,25 @@
+.toast-container {
+  /* background: #e6e99d; */
+  line-height: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.toast-container p {
+  text-indent: 1rem;
+}
+
+.error {
+  background: #e6e99d;
+}
+
+.success {
+  background: rgb(93, 216, 138);
+}
+
+span.btn-close {
+  font-size: 1.125rem;
+  padding: 0 1rem;
+  cursor: pointer;
+}

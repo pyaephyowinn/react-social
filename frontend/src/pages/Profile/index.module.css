@@ -1,0 +1,53 @@
+.header {
+  padding: 2rem 1rem 1rem 1rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.info {
+  flex-grow: 1;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex button {
+  margin-left: auto;
+  
+  padding: .5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.info p {
+  margin-bottom: 1rem;
+}
+
+.header .follow-count {
+  font-size: 1.1rem;
+  font-weight: 550;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+span.following {
+  margin-right: 2.5rem;
+}
+
+h3.label-posts {
+  background-color: #ddd;
+  padding: 1rem 1rem;
+  margin-top: 2.5rem;
+}

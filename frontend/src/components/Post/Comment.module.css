@@ -1,0 +1,35 @@
+.container {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .btn-delete {
+  background: rgb(225, 33, 33);
+  color: #fff;
+  padding: .5rem 1rem;
+  border: none;
+  border-radius: 100vmax;
+  cursor: pointer;
+}
+
+.username {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.time {
+  margin-left: 1rem;
+  font-weight: 100;
+  font-size: .9rem;
+  letter-spacing: -1px;
+}
+
+p.content {
+  margin-top: 1rem;
+}

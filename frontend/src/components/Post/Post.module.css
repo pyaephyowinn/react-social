@@ -1,0 +1,65 @@
+div.post-container {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 1rem .5rem 1rem;
+  margin: 0 .5rem;
+}
+
+div.info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.user-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+span.name {
+  font-weight: 600;
+  line-height: 1.25rem;
+}
+
+span.date {
+  margin-left: 3rem;
+  font-weight: 100;
+  font-size: small;
+  letter-spacing: -1px;
+}
+
+.btn-delete {
+  color: #fff;
+  background: rgb(214, 49, 49);
+  margin-left: auto;
+  padding: .5rem 1rem;
+  border: none;
+  border-radius: 100vmax;
+  cursor: pointer;
+}
+
+p.content {
+  margin: .5rem 0 1rem 0;
+}
+
+div.actions {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.like-box, .comment-box {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.like-box:hover, .comment-box:hover {
+  color: var(--accent-color-blue);
+}
+
+.like-box:active {
+  transform: scale(1.1);
+}
+
+.icon {
+  margin-right: .5rem;
+  font-size: 1.5rem;
+}

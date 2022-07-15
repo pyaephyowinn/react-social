@@ -9,7 +9,6 @@ import { errorHandler } from "./middleware/errorMiddleware.js";
 
 import { fileURLToPath } from 'url';
 
-
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));

@@ -1,0 +1,8 @@
+.container {
+  margin: 25% auto;
+  width: fit-content;
+}
+
+.container h1 {
+  margin-bottom: 1rem;
+}

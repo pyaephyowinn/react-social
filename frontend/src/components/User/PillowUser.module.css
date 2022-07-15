@@ -1,0 +1,25 @@
+.container {
+  padding: 1rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.container p {
+  margin-bottom: 1rem;
+}
+
+.user-link {
+  line-height: 1.5rem;
+  font-size: 1.125rem;
+
+  color: #000;
+  font-weight: 600;
+}
+
+.user-link:hover {
+  text-decoration: none;
+}
+
+.following {
+  margin-right: 2rem;
+}
